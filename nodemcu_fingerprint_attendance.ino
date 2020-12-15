@@ -320,7 +320,7 @@ if (finger.confidence >= 60)
     Serial.print("!!--");
     Serial.println(finger.fingerID);
     NAME = "MANJUNATH T N";
-    ID = "TT15342";
+    ID = "TT1542";
     if (finger.confidence >= 60) 
     {
       update_data();
@@ -543,6 +543,19 @@ if (finger.fingerID == 34)
     Serial.println(finger.fingerID);
     NAME = "MANU";
     ID = "";
+   if (finger.confidence >= 60) 
+    {
+      update_data();
+    }
+  }
+/**********************************************************************************************************************8*****************************************/
+
+if (finger.fingerID == 35) 
+  {
+    Serial.print("!!--");
+    Serial.println(finger.fingerID);
+    NAME = "MANJUNATH H R";
+    ID = "TT1563";
    if (finger.confidence >= 60) 
     {
       update_data();
